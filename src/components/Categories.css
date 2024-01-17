@@ -1,0 +1,25 @@
+.categories{
+    background-color: white;
+    margin: 10px 15px  20px 15px;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+}
+.categoryComponent{
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 15px rgb(219, 216, 216);
+    transition: scale 0.3s ;
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+.categoryComponent:hover{
+    scale: 1.1;
+}
